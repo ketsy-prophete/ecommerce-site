@@ -1,0 +1,76 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "itemName": "ZZ Plant (Z. zamiifolia)",
+      "itemDescription": "The ZZ plant is a low-maintenance, hardy indoor plant known for its glossy, dark green leaves and upright growth habit. It thrives in low to bright indirect light and tolerates infrequent watering, making it perfect for busy individuals or low-light conditions. Its resilience and ability to purify air add to its popularity as a houseplant.",
+      "itemImgURL": "assets/images/zz.jpg",
+      "itemPrice": 18,
+      "airPurifier": "Yes!"
+    },
+    {
+      "id": 2,
+      "itemName": "Peperomia Plant (Peperomia)",
+      "itemDescription": "The Peperomia plant is a popular choice for indoor settings, cherished for its attractive foliage and ease of care. Belonging to the Peperomia genus, these plants come in various leaf shapes, colors, and textures, making them versatile and suitable for a range of interior decor styles. Peperomias are known for their compact growth habit, making them perfect for small spaces like desks and shelves. They thrive in bright, indirect light but can tolerate lower light conditions. With their low water requirements and forgiving nature, Peperomias are ideal companions for busy individuals or those new to plant care.",
+      "itemImgURL": "https://cdn.shopify.com/s/files/1/0260/3037/4957/products/small-plant-peperomia-no-pot.jpg",
+      "itemPrice": 10,
+      "airPurifier": "Nope."
+    },
+    {
+      "id": 3,
+      "itemName": "Peace Lily (Spathiphyllum)",
+      "itemDescription": "The Peace Lily is an elegant indoor plant celebrated for its glossy, deep green leaves and striking white spathes that resemble calla lilies. It prefers low to medium indirect light and consistently moist soil, making it ideal for shaded indoor spaces. Additionally, it is effective in improving indoor air quality by removing common toxins.",
+      "itemImgURL": "assets/images/peaceLily.png",
+      "itemPrice": 12,
+      "airPurifier": "Yes!"
+    },
+    {
+      "id": 4,
+      "itemName": "Money Tree Plant (P. aquatica)",
+      "itemDescription": "The Whale Fin Plant, or Sansevieria masoniana, is a striking succulent known for its large, paddle-shaped leaves that resemble a whale's fin. It's an ideal choice for busy individuals, requiring minimal care and thriving in low light. This hardy plant is also excellent at purifying indoor air, making it a beautiful and functional addition to any desk or workspace.",
+      "itemImgURL": "assets/images/moneytree.jpeg",
+      "itemPrice": 12,
+      "airPurifier": "Nope."
+    },
+    {
+      "id": 5,
+      "itemName": "Whale Fin Plant (S. masoniana)",
+      "itemDescription": "The Money Tree Plant, or Pachira aquatica, is renowned for its distinctive braided trunk and lush foliage, making it a stylish addition to any office or home. This versatile plant is well-suited to various lighting conditions, from low to bright indirect light, and requires minimal watering, making it easy to care for.",
+      "itemImgURL": "assets/images/whalefin.jpg",
+      "itemPrice": 25,
+      "airPurifier": "Yes!"
+    },
+    {
+      "id": 6,
+      "itemName": "Juniper Bonsai (Juniperus)",
+      "itemDescription": "The Juniper Bonsai, belonging to the Juniperus species, is a classic and elegant miniature tree known for its rugged, evergreen foliage and beautifully gnarled trunk. This bonsai thrives in bright, indirect light and appreciates regular watering, with soil that dries slightly between waterings. Renowned for its resilience and adaptability, the Juniper Bonsai is perfect for those looking to bring a touch of nature and tranquility to their workspace. With its timeless beauty and the sense of calm it imparts, the Juniper Bonsai is an ideal choice for enhancing focus and productivity in a desk setting.",
+      "itemImgURL": "assets/images/juniperbonsai.jpg",
+      "itemPrice": 30,
+      "airPurifier": "Nope."
+    },
+    {
+      "id": 7,
+      "itemName": "Jade Plant",
+      "itemDescription": "Popular succulent with thick, fleshy leaves that store water.",
+      "itemImgURL": "assets/images/jade.jpg",
+      "itemPrice": 17,
+      "airPurifier": "Nope."
+    },
+    {
+      "id": 8,
+      "itemName": "Calandiva Flower",
+      "itemDescription": "Beautiful window buddy!",
+      "itemImgURL": "https://images.squarespace-cdn.com/content/v1/5a206c4bdc2b4affa2b76f82/253518f2-8989-4424-a770-3a671114bbd2/Medium+Snowdrop+Calandiva+from+Leon+and+George",
+      "itemPrice": "7",
+      "airPurifier": "Yes!"
+    },
+    {
+      "id": 9,
+      "itemName": "Fiddle Leaf Plant",
+      "itemDescription": "Fun leaves for days!",
+      "itemImgURL": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRWLXE_oIKK1fcIU7-XfWN58leocZeezW2T-2hl4_pR1FRugMeTax7uCFp99cNZ1tjUMnqJ4xzlbDtshrL3vHwyvYnKGXglQEq05_7DkODYfkN-P_sw4b4M&usqp=CAc",
+      "itemPrice": "16",
+      "airPurifier": "Nope."
+    }
+  ]
+}

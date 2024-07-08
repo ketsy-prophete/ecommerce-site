@@ -1,0 +1,41 @@
+<h1>Add New Item</h1>
+<div class="flex-container">
+
+    <form #form="ngForm" (ngSubmit)="onSubmit()">
+        <div>
+            <label>Item Name</label>
+            <input type="text" name="itemName" [(ngModel)]="newProduct.itemName">
+        </div>
+        <div>
+            <label>Air Purifying?</label>
+            <select [(ngModel)]="newProduct.airPurifier" type="dropdown" name="airPurifier" class="dropdown">
+
+                <!-- NOT WORKING CORRECTLY -->
+
+                <option [(ngModel)]="newProduct.airPurifier" value="Nope.">Nope.</option>
+                <option [(ngModel)]="newProduct.airPurifier" value="Yes!">Yes!</option>
+            </select>
+        </div>
+        <div>
+            <label>Item Description</label>
+            <textarea rows="8" cols="54" type="text" name="itemDescription"
+                [(ngModel)]="newProduct.itemDescription"></textarea>
+        </div>
+        <div>
+            <label>Item Price</label>
+            <input type="text" name="itemPrice" [(ngModel)]="newProduct.itemPrice">
+        </div>
+        <div>
+            <label>Image URL</label>
+            <input type="text" name="itemImgURL" [(ngModel)]="newProduct.itemImgURL">
+        </div>
+
+        <div>
+            <button class="button" type="submit">Submit</button>
+            <button class="button" type="submit" [routerLink]='["/products"]'>Back</button>
+
+        </div>
+
+        <img [src]="newProduct.itemImgURL" [alt]="newProduct.itemName" />
+    </form>
+</div>

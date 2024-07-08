@@ -1,0 +1,21 @@
+<div class="flex-container">
+    <img [src]="currentProduct.itemImgURL" [alt]="currentProduct.itemName" />
+    <div>
+        <mat-card>
+            <mat-card-content>
+                <h1>{{currentProduct.itemName}}</h1>
+                <p class="description">{{currentProduct.itemDescription}}</p>
+                <br>
+                <p> Price — ${{currentProduct.itemPrice}}</p>
+                <p>Improves Air Quality — {{currentProduct.airPurifier}}</p>
+                <br>
+
+                <a id="visited" [routerLink]='["/products"]' class="buttons">Back</a>
+                <a id="visited" [routerLink]='["/edit", currentProduct.id]' class="buttons">Edit</a>
+                <a id="visited" class="buttons" (click)="onDelete(currentProduct.id)"
+                    [routerLink]='["/home"]'>Remove</a>
+
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

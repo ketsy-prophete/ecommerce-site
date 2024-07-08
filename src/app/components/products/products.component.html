@@ -1,0 +1,40 @@
+<img class="logo" src="assets/images/devGreen.png" alt="dev greeen company logo">
+<br>
+
+<h1>Find your new desk companion!</h1>
+
+<div class="filter_add-btns">
+    <button class="btn1" aria-label="price-filter-low" (click)="onClick()">
+        $$ Low-High
+    </button>
+    <button class="btn2" aria-label="price-filter-high" (click)="sortProducts('desc')">
+        $$ High-Low
+    </button>
+    <a [routerLink]='["/add"]' class="addNewItem-btn">Add New Item!</a>
+</div>
+
+<ul class="flex-container">
+    <li *ngFor="let plant of productList">
+        <mat-card>
+            <mat-card-content>
+                <img class="plantImages" [src]="plant.itemImgURL" [alt]="plant.itemName" />
+                <br>
+                <br>
+                <a class="product_title-price">{{plant.itemName}} — ${{plant.itemPrice}}<br></a>
+
+                <br>
+
+                <a [routerLink]='["/products", plant.id]' class="view_edit_remove-btns">View</a>
+                <a [routerLink]='["/edit", plant.id]' class="view_edit_remove-btns">Edit</a>
+                <a [routerLink]='["/products"]' (click)="onDelete(plant.id)" class="view_edit_remove-btns">Remove</a>
+
+            </mat-card-content>
+        </mat-card>
+    </li>
+</ul>
+
+
+<div class="footer">
+    <hr>
+    <footer> Website Design KP</footer>
+</div>

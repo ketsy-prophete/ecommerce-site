@@ -1,0 +1,21 @@
+<img class="logo" src="assets/images/devGreen.png" alt="dev greeen company logo">
+
+<h1>Welcome to Our Shop!</h1>
+<div class="top-div">
+    <ul class="flex-container">
+        <li *ngFor="let plant of productList | slice:0:3">
+            <mat-card>
+                <mat-card-content>
+                    <img class="items" [src]="plant.itemImgURL" [alt]="plant.itemName" />
+                    <br>
+                    <br>
+                    <a>{{plant.itemName}}<br></a>
+                </mat-card-content>
+            </mat-card>
+        </li>
+    </ul>
+</div>
+<div class="footer">
+    <hr>
+    <footer> Website Design KP</footer>
+</div>

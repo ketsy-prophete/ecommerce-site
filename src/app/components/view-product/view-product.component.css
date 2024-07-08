@@ -1,0 +1,56 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+img {
+    margin-right: 35px;
+    max-height: 475px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.123);
+}
+
+mat-card {
+    margin-right: 50px;
+    width: 700px;
+    background-color: rgba(230, 230, 226, 0.871);
+}
+
+h1 {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0px;
+}
+
+.description {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.buttons {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 20px;
+    font-size: medium;
+}
+
+#visited {
+    color: rgb(120, 113, 113);
+    text-decoration: none;
+    background-color: rgba(230, 230, 226, 0.871);
+    border: 1px solid rgba(0, 0, 0, 0.108);
+    padding: 0px 5px 2px 5px;
+    border-radius: 7px;
+}

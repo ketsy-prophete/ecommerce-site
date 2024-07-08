@@ -1,0 +1,40 @@
+<h1>Edit {{currentProduct.itemName}} </h1>
+<div class="flex-container">
+
+    <form #form="ngForm" (ngSubmit)="onSubmit()">
+        <div>
+            <label>Item Name</label>
+            <input type="text" name="itemName" [(ngModel)]="currentProduct.itemName">
+        </div>
+        <div>
+            <label>Air Purifying?</label>
+            <select type="dropdown" name="airPurifier" class="dropdown">
+
+                <!-- NOT WORKING CORRECTLY -->
+
+                <option value="dropdownOption1">Nope.</option>
+                <option value="dropdownOption2">Yes!</option>
+            </select>
+        </div>
+        <div>
+            <label>Item Description</label>
+            <textarea rows="8" cols="54" type="text" name="itemDescription"
+                [(ngModel)]="currentProduct.itemDescription"></textarea>
+        </div>
+        <div>
+            <label>Item Price</label>
+            <input type="text" name="itemPrice" [(ngModel)]="currentProduct.itemPrice">
+        </div>
+        <div>
+            <label>Image URL</label>
+            <input type="text" name="itemImgURL" [(ngModel)]="currentProduct.itemImgURL">
+        </div>
+
+        <div>
+            <button class="button" type="submit">Submit</button>
+            <button class="button" type="submit" [routerLink]='["/products"]'>Back</button>
+        </div>
+    </form>
+    <img [src]="currentProduct.itemImgURL" />
+
+</div>

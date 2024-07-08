@@ -1,0 +1,129 @@
+.logo {
+    height: 125px;
+    margin-top: 15px;
+}
+
+h1 {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 160px;
+    margin-top: 0px;
+}
+
+.filter_add-btns {
+    margin-left: 160px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.btn1 {
+    border: 2px solid #b1bfa6;
+    background-color: rgba(230, 230, 226, 0.871);
+    padding: 7px 12px 7px 12px;
+    border-radius: 7px 0 0 7px;
+    margin-right: 3px;
+    font-size: 17px;
+    font-family: "Barlow", sans-serif;
+    color: rgb(61, 60, 60);
+    padding: 10px;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.btn1:active {
+    transform: scale(0.95);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn2 {
+    border: 2px solid #b1bfa6;
+    background-color: rgba(230, 230, 226, 0.871);
+    padding: 7px 12px 7px 12px;
+    border-radius: 0 7px 7px 0;
+    font-size: 17px;
+    font-family: "Barlow", sans-serif;
+    color: rgb(61, 60, 60);
+    padding: 10px;
+    transition: transform 0.1s, box-shadow 0.1s;
+    margin-right: 20px;
+}
+
+.btn2:active {
+    transform: scale(0.95);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.addNewItem-btn {
+    border: 1px solid #7e916e;
+    background-color: #7e916e;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.462);
+    padding: 7px 12px 7px 12px;
+    border-radius: 7px;
+    margin-right: 7px;
+    font-size: 17px;
+    font-family: "Barlow", sans-serif;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 0;
+    margin-bottom: 150px;
+    padding-left: 160px;
+}
+
+mat-card {
+    width: 325px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgba(230, 230, 226, 0.871);
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.plantImages {
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.123);
+}
+
+.product_title-price {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+.view_edit_remove-btns {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 20px;
+    font-size: medium;
+    color: rgb(120, 113, 113);
+    text-decoration: none;
+    background-color: rgba(230, 230, 226, 0.871);
+    border: 1px solid rgba(0, 0, 0, 0.108);
+    padding: 0px 5px 2px 5px;
+    border-radius: 7px;
+}
+
+footer {
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: right;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
